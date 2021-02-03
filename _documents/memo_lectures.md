@@ -6,3 +6,8 @@
 
 
 - [FinanceDataReader(Github)](https://github.com/FinanceData/FinanceDataReader)
+
+
+- [LSTM의 원리와 수식 계산](http://docs.likejazz.com/lstm/)
+
+- [[LSTM] 삼성 주가 예측](https://blog.naver.com/s_holmes25/222151796474)
