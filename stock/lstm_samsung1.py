@@ -77,9 +77,8 @@ x_train.shape, x_valid.shape
 # ((6086, 20, 4), (1522, 20, 4))
 
 # test dataset (실제 예측 해볼 데이터)
-test_feature = ['시가', '고가', '저가', '거래량']
-test_label = ['종가']
-
+test_feature = test[feature_cols]
+test_label = test[label_cols]
 
 test_feature, test_label = make_dataset(test_feature, test_label, 20)
 test_feature.shape, test_label.shape
